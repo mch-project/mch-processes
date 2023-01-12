@@ -32,6 +32,6 @@ An initial proof-of-concept may look something like this...
 
 	The Linux version of a Window's Dynamic Linked Library (`DLL`) is called a Shared Object (`.so`). It should be possible to use both C and Pascal functions from other environments (e.g. Python) if the MCH processes library exports its functions with C calling conventions.
 
-	Shared objects (`.so` files) can often be used on multiple Linux distributions as long they use the same version of the C compiler, however to avoid problems we should agree which distro and verson to target (in OpenCDMS we have been using versions of Debian/Ubuntu).
+	Shared objects (`.so` files) can often be used on multiple Linux distributions as long they use the same version of the C compiler, however to avoid problems we should agree which distro and version to target (in OpenCDMS we have been using versions of Debian/Ubuntu).
   
 	In GitHub we can create a version release (e.g. version 0.1.0) of the `mch-processes` library. When we create a release, we can attach the binary shared library files to the release which will allow us to not store these binary files in the code repository itself.
